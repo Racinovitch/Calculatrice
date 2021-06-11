@@ -1,0 +1,63 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#title{
+    text-align: center;
+    color:peru;
+    padding: 0;
+    margin: 0;
+}
+
+#cadre{
+    width: 33%;
+    height: auto;
+    margin:auto;
+    text-align: center;
+    background-color:burlywood;
+    padding: 20px;
+    border-radius: 25px;
+}
+
+#CadreNumbers{
+    width: 25%;
+    height: auto;
+    margin: auto;
+    padding: 0;
+    
+}
+input{
+    text-align: center;
+    border: none;
+    border-radius: 10px;
+    height: 30px;
+    margin: 3px;
+    background-color:darksalmon;
+    color: black;
+}
+
+input:focus{
+    outline: none;
+}
+
+button{
+    height: 30px;
+    width: 30px;
+    margin:0;
+    border: dotted 1px orange;
+    background-color: darkgoldenrod;
+}
+
+button:active{
+    background-color: orange;
+}
+
+#cadreOperator{
+    width: auto;
+    margin:10px;
+    padding: 0;
+}
+
+#spanOperator{
+    font-size:x-large;
+    margin: 10px;
+}
